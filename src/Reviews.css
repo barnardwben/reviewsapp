@@ -1,0 +1,64 @@
+.img-container {
+  width: 200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.205);
+}
+
+article {
+  position: relative;
+  top: 15vh;
+  width: 500px;
+  margin: auto;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.192);
+  background: #fff;
+}
+
+.h4-name {
+  color: rgb(62, 122, 250);
+}
+
+.h4-job {
+  color: rgb(85, 83, 83);
+}
+
+.p-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.p-text {
+  font-size: 0.75rem;
+}
+
+.np-btn {
+  margin: 1rem;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(45deg, rgb(218, 211, 211), #fff);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.144);
+  transition: 0.1s all ease-in-out;
+}
+
+.rando-btn {
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(45deg, rgb(116, 163, 177), rgb(99, 192, 177));
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.144);
+  transition: 0.1s all ease-in-out;
+}
+
+button:active {
+  transform: translateY(0.1rem);
+  box-shadow: 0px 0px 0px black;
+}
